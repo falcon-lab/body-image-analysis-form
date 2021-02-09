@@ -1,4 +1,6 @@
+import React from 'react'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import type { AppProps } from 'next/app'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -14,7 +16,7 @@ const theme = {
   },
 }
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <GlobalStyle />
