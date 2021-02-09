@@ -5,7 +5,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "eslint:init": "eslint --init"
+    "eslint:init": "eslint --init",
+    "eslint:lint": "eslint ./ --fix"
   },
   "dependencies": {
     "framer-motion": "^3.3.0",
