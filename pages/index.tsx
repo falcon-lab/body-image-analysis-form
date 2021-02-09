@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Background from '../src/components/Background'
 
 const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
@@ -8,7 +9,10 @@ const Title = styled.h1`
 
 export default function Home() {
   return (
-    <Title>
-      My page
-    </Title>)
+    <Background>
+      <Title>
+        My page
+    </Title>
+    </Background>
+  )
 }
