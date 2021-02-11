@@ -6,7 +6,7 @@ interface IContainer {
 
 const Container: FunctionComponent<IContainer> = ({ children }) => {
   return (
-    <div className="container mx-auto px-5">
+    <div className="container px-8 max-w-7xl mx-auto">
       {children}
     </div>
   );
