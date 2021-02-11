@@ -1,18 +1,20 @@
 import React from 'react'
-import styled from 'styled-components'
-import Background from '../src/components/Background'
+import Header from '../src/components/header';
+import Container from '../src/components/container';
+import HeroPost from '../src/components/hero-post';
 
-const Title = styled.h1`
-  color: ${({ theme }) => theme.colors.primary};
-  font-size: 50px;
-`
+import db from '../db.json';
 
 export default function Home() {
   return (
-    <Background>
-      <Title>
-        My page
-    </Title>
-    </Background>
+    <>
+      <Header />
+      <Container>
+        <HeroPost
+          title={db.title}
+          subtitle={db.description}
+        />
+      </Container>
+    </>
   )
 }
