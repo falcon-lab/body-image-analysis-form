@@ -1787,10 +1787,10 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-framer-motion@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-3.3.0.tgz#e355824369f03c8cd07a87ef59b7a8348c33fafd"
-  integrity sha512-bjUrwXfMJZ6D+HSMDiXbMGKmlWGnUux8HotWgORTZkdPTgKAndlRXjeC2ikCgNVo2ifmRvEla5ckP9JaZc7JKA==
+framer-motion@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-3.6.3.tgz#de8f082737c5d03d7cd059e887dd7eeaf733bd27"
+  integrity sha512-3+0+Lq4fhetMV+vJWuOCz/RDJoVa8f5qn6I4N1WYQWF9oKHHO42+EsU6h7jKw+gtJ9hOmxNAG1PHiyrkW12m4A==
   dependencies:
     framesync "^5.0.0"
     hey-listen "^1.0.8"
